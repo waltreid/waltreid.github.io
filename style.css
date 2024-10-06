@@ -8,3 +8,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
 }
+.head {
+  margin: auto;
+  max-width: 350px;
+}
