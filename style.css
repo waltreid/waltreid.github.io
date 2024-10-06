@@ -11,4 +11,5 @@ h2 {
 .head {
   margin: auto;
   max-width: 350px;
+  text-align: center;
 }
