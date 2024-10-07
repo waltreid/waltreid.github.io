@@ -34,6 +34,12 @@ a.firstLink {
 a.lastLink {
   text-align: left;
 }
+.gallery {
+  clear: left;
+  max-width: 900px;
+  margin: auto;
+  min-height: calc(100vh - 236px - 30px);
+}
 .about {
   margin: auto;
   max-width: 900px;
