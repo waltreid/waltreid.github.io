@@ -37,6 +37,7 @@ a.lastLink {
 .about {
   margin: auto;
   max-width: 900px;
+  min-height: calc(100vh - 236px - 30px);
 }
 #ContactImage {
   float: left;
@@ -52,13 +53,10 @@ a.lastLink {
   text-align: center;
 }
 .foot {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
   clear: left;
   text-align: center;
   font-size: 8pt;
   color: #555;
   padding-top: 20px;
+  height: 30px;
 }
