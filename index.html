@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
     <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="js/lightbox/js/lightbox.min.js"></script>
     <link href="js/lightbox/css/lightbox.min.css" rel="stylesheet"></link>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -74,10 +75,15 @@
                 'showImageNumberLabel': false
             })
     
-            $('.gallery').masonry({
+            var $gallery = $('.gallery').masonry({
                 // options
                 itemSelector: '.galleryImg',
                 columnWidth: 300
+            });
+            
+            // layout Masonry after each image loads
+            $gallery.imagesLoaded().progress( function() {
+                $gallery.masonry('layout');
             });
         });
     </script>
