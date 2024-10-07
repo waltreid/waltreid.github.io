@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-h2 {
+h2, .headLink {
   font-family: "IBM Plex Serif", serif;
   font-weight: 400;
   font-style: normal;
@@ -12,4 +12,49 @@ h2 {
   margin: auto;
   max-width: 350px;
   text-align: center;
+}
+#LogoImage {
+  padding: 20px 0 10px 0;
+}
+a {
+  color: black;
+}
+a.headLink {
+  display: block;
+  float: left;
+  width: 175px;
+  box-sizing: border-box;
+  font-size: 14pt;
+  text-decoration: none;
+  padding: 0 10px 30px 10px;
+}
+a.firstLink {
+  text-align: right;
+}
+a.lastLink {
+  text-align: left;
+}
+.about {
+  margin: auto;
+  max-width: 900px;
+}
+#ContactImage {
+  float: left;
+}
+.aboutText {
+  float: left;
+  padding: 20px;
+  max-width: 450px;
+  box-sizing: border-box;
+  line-height: 1.35;
+}
+.ContactLinks {
+  text-align: center;
+}
+.foot {
+  clear: left;
+  text-align: center;
+  font-size: 8pt;
+  color: #555;
+  padding-top: 20px;
 }
