@@ -40,6 +40,9 @@ a.lastLink {
   margin: auto;
   min-height: calc(100vh - 236px - 30px);
 }
+.galleryImg {
+  margin: 5px auto;
+}
 .about {
   margin: auto;
   max-width: 900px;
