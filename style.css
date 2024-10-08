@@ -42,7 +42,8 @@ a.lastLink {
   min-height: calc(100vh - 236px - 30px);
 }
 .galleryImg {
-  margin: 5px auto;
+  padding: 5px;
+  box-sizing: border-box;
 }
 .lb-caption {
   font-size: 13pt;
@@ -56,14 +57,24 @@ a.lastLink {
   min-height: calc(100vh - 236px - 30px);
 }
 #ContactImage {
-  float: left;
+  display: block;
+  margin: auto;
+  max-width: 450px;
 }
 .aboutText {
-  float: left;
+  margin: auto;
   padding: 20px;
   max-width: 450px;
   box-sizing: border-box;
   line-height: 1.35;
+}
+@media only screen and (min-width: 900px) {
+  .aboutText {
+    float: left;
+  }
+  #ContactImage {
+    float: left;
+  }
 }
 .ContactLinks {
   font-style: italic;
