@@ -12,6 +12,7 @@ h2, .headLink, .lb-caption {
   margin: auto;
   max-width: 350px;
   text-align: center;
+  padding-bottom: 30px;
 }
 #LogoImage {
   padding: 20px 0 10px 0;
@@ -20,19 +21,9 @@ a {
   color: black;
 }
 a.headLink {
-  display: block;
-  float: left;
-  width: 175px;
-  box-sizing: border-box;
   font-size: 14pt;
   text-decoration: none;
-  padding: 0 10px 30px 10px;
-}
-a.firstLink {
-  text-align: right;
-}
-a.lastLink {
-  text-align: left;
+  padding: 0 10px;
 }
 .gallery {
   clear: left;
