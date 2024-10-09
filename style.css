@@ -84,6 +84,7 @@ a.headLink {
   }
 }
 .ContactLinks {
+  padding-top: 15px;
   font-style: italic;
   text-align: center;
 }
