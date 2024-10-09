@@ -1,12 +1,18 @@
 body, .lb-subcaption {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+body.fontLoaded, body.fontLoaded .lb-subcaption {
+  font-family: "IBM Plex Sans", sans-serif;
+}
 h2, .headLink, .lb-caption {
-  font-family: "IBM Plex Serif", serif;
+  font-family: serif;
   font-weight: 400;
   font-style: normal;
+}
+body.fontLoaded h2, body.fontLoaded .headLink, body.fontLoaded .lb-caption {
+  font-family: "IBM Plex Serif", serif;
 }
 .head {
   margin: auto;
@@ -24,6 +30,10 @@ a.headLink {
   font-size: 14pt;
   text-decoration: none;
   padding: 0 10px;
+}
+.galleryContainer {
+  max-width: 900px;
+  margin: auto;
 }
 .gallery {
   clear: left;
