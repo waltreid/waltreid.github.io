@@ -15,7 +15,7 @@ h2, .headLink, .lb-caption {
   font-style: normal;
 }
 body.fontLoaded h2, body.fontLoaded .headLink, body.fontLoaded .lb-caption {
-  font-family: "IBM Plex Serif", serif;
+  font-family: "Source Serif 4", "IBM Plex Serif", serif;
 }
 .head {
   margin: auto;
