@@ -36,6 +36,9 @@ a.headLink {
   text-decoration: none;
   padding: 0 10px;
 }
+a.headLink:hover {
+    color: ff0000;
+]
 .galleryContainer {
   max-width: 900px;
   margin: auto;
