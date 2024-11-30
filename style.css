@@ -32,7 +32,7 @@ a {
   color: black;
 }
 a.headLink {
-  font-size: 14pt;
+  font-size: 16pt;
   text-decoration: none;
   padding: 0 10px;
 }
@@ -52,10 +52,10 @@ a.headLink {
   box-sizing: border-box;
 }
 .lb-caption {
-  font-size: 14pt;
+  font-size: 16pt;
 }
 .lb-subcaption {
-  font-size: 9pt;
+  font-size: 12pt;
 }
 .about {
   margin: auto;
@@ -95,7 +95,7 @@ a.headLink {
   clear: left;
   text-align: center;
   font-family: "Source Serif 4";
-  font-size: 8pt;
+  font-size: 12pt;
   color: #555;
   padding-top: 20px;
   height: 30px;
