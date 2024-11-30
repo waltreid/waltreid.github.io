@@ -97,9 +97,12 @@ a.headLink:hover {
 .foot {
   clear: left;
   text-align: center;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: sans-serif;
   font-size: 12pt;
   color: #555;
   padding-top: 20px;
   height: 30px;
+}
+body.fontLoaded .foot {
+  font-family: "IBM Plex Sans", sans-serif;
 }
