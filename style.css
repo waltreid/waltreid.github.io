@@ -95,6 +95,12 @@ a.headLink:hover {
 .ContactLinks a {
   text-decoration: none;
 }
+.svgPath {
+  fill: #252525;
+}
+.ContactLinks a:hover .svgPath {
+  fill: #CC3344;
+}
 .foot {
   clear: left;
   text-align: center;
