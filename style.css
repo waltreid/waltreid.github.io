@@ -81,10 +81,7 @@ a.headLink:hover {
 }
 .hockText {
   margin: auto;
-  padding-top: 5px;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-bottom: 5px;
+  padding: 20px;
   max-width: 450px;
   box-sizing: border-box;
   line-height: 1.35;
