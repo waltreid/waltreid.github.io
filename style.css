@@ -79,6 +79,14 @@ a.headLink:hover {
   line-height: 1.35;
   color: #252525;
 }
+.hockText {
+  margin: auto;
+  padding: 0px 20px 0px 20px;
+  max-width: 450px;
+  box-sizing: border-box;
+  line-height: 1.35;
+  color: #252525;
+}
 @media only screen and (min-width: 900px) {
   .aboutText {
     float: left;
